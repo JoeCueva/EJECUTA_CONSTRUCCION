@@ -7,6 +7,12 @@ import VideoBg from '../BackgroundVideo/Home/BackgroundHome';
 import VideoBgContact from '../BackgroundVideo/Contact/BackgroundContact.jsx';
 import VideoBgApproach from '../BackgroundVideo/Approach/BackgroundApproach.jsx';
 import VideoBgCriterion from '../BackgroundVideo/Criterion/BackgroundCriterion.jsx';
+import VideoBgEssence from '../BackgroundVideo/Essence/BackgroundEssence.jsx';
+import VideoMethod from '../BackgroundVideo/Method/BackgroundMethod.jsx';
+import VideoServiceElectrical from '../BackgroundVideo/Electrical/BackgroundElectrical.jsx';
+import VideoServiceSanitary from '../BackgroundVideo/Sanitary/BackgroundSanitary.jsx';
+import VideoServiceFire from '../BackgroundVideo/Fire/BackgroundFire.jsx';
+import VideoServiceCommunication from '../BackgroundVideo/Communication/BackgroundCommunication.jsx';
 const Navbar = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
@@ -101,6 +107,12 @@ const Navbar = () => {
                 {location.pathname === "/contactos" && <VideoBgContact />}
                 {location.pathname === "/approach" && <VideoBgApproach />}
                 {location.pathname === "/criterion" && <VideoBgCriterion />}
+                {location.pathname === "/essence" && <VideoBgEssence />}
+                {location.pathname === "/method" && <VideoMethod />}
+                {location.pathname === "/service-electrical" && <VideoServiceElectrical />}
+                {location.pathname === "/service-sanitary" && <VideoServiceSanitary />}
+                {location.pathname === "/service-fire" && <VideoServiceFire />}
+                {location.pathname === "/service-communications" && <VideoServiceCommunication />}
                 {location.pathname === "/" && <VideoBg />}
 
                 {/* ============================== SECCION DE NAVBAR ============================= */}
@@ -149,28 +161,28 @@ const Navbar = () => {
                                             <NavLink className='navigation_submenu_link_element'
                                                 to="/approach"
                                                 onClick={closeMobileMenu}>
-                                                <i className="fa-solid fa-bullseye"></i> Enfoque
+                                                <i className="fa-solid fa-bullseye"></i> Enfoque Estratégico
                                             </NavLink>
                                         </li>
                                         <li className='navigation_submenu_list_item'>
                                             <NavLink className='navigation_submenu_link_element'
-                                                to="/empresa#esencia"
+                                                to="/essence"
                                                 onClick={closeMobileMenu}>
-                                                <i className="fa-solid fa-dna"></i> Esencia
+                                                <i className="fa-solid fa-dna"></i> Nuestra Identidad
                                             </NavLink>
                                         </li>
                                         <li className='navigation_submenu_list_item'>
                                             <NavLink className='navigation_submenu_link_element'
                                                 to="/criterion"
                                                 onClick={closeMobileMenu}>
-                                                <i className="fa-solid fa-brain"></i> Criterio
+                                                <i className="fa-solid fa-brain"></i> Criterio Técnico
                                             </NavLink>
                                         </li>
                                         <li className='navigation_submenu_list_item'>
                                             <NavLink className='navigation_submenu_link_element'
-                                                to="/empresa#metodo"
+                                                to="/method"
                                                 onClick={closeMobileMenu}>
-                                                <i className="fa-solid fa-screwdriver-wrench"></i> Método
+                                                <i className="fa-solid fa-screwdriver-wrench"></i> Método Ejecuta
                                             </NavLink>
                                         </li>
                                     </ul>
@@ -194,7 +206,7 @@ const Navbar = () => {
                                         <li className='navigation_submenu_list_item'>
                                             <NavLink
                                                 className='navigation_submenu_link_element'
-                                                to="/servicios/electrico"
+                                                to="/service-electrical"
                                                 onClick={closeMobileMenu}>
                                                 <i className="fa-solid fa-bolt"></i> Instalaciones Eléctricas
                                             </NavLink>
@@ -203,7 +215,7 @@ const Navbar = () => {
                                         <li className='navigation_submenu_list_item'>
                                             <NavLink
                                                 className='navigation_submenu_link_element'
-                                                to="/servicios/sanitario"
+                                                to="/service-sanitary"
                                                 onClick={closeMobileMenu}>
                                                 <i className="fa-solid fa-droplet"></i> Instalaciones Sanitarias
                                             </NavLink>
@@ -212,7 +224,7 @@ const Navbar = () => {
                                         <li className='navigation_submenu_list_item'>
                                             <NavLink
                                                 className='navigation_submenu_link_element'
-                                                to="/servicios/contraincendio"
+                                                to="/service-fire"
                                                 onClick={closeMobileMenu}>
                                                 <i className="fa-solid fa-fire-extinguisher"></i> Contraincendio
                                             </NavLink>
@@ -221,7 +233,7 @@ const Navbar = () => {
                                         <li className='navigation_submenu_list_item'>
                                             <NavLink
                                                 className='navigation_submenu_link_element'
-                                                to="/servicios/comunicaciones"
+                                                to="/service-communications"
                                                 onClick={closeMobileMenu}>
                                                 <i className="fa-solid fa-tower-broadcast"></i> Comunicaciones
                                             </NavLink>

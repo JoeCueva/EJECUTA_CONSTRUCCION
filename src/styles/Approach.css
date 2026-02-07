@@ -397,7 +397,7 @@
 
 .approach_result_section {
     position: relative;
-    padding: 140px 20px;
+    padding: 70px 20px;
     font-family: 'mainText';
 }
 
@@ -433,6 +433,7 @@
 .result_intro h2 {
     font-size: 2.5rem;
     line-height: 1.15;
+    margin-top: 30px;
     margin-bottom: 30px;
     color: var(--main_overall_color_quaternary);
 }
@@ -440,6 +441,7 @@
 .result_main {
     font-size: 1.0rem;
     line-height: 1.25;
+    margin-top: 30px;
     margin-bottom: 35px;
     color: var(--main_overall_color_quinary);
 }
@@ -467,7 +469,6 @@
 
 .result_card:hover {
     transform: translateY(-6px);
-    /* box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12); */
 }
 
 .card_index {

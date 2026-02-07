@@ -218,14 +218,19 @@ const Approach = () => {
                             </h2>
 
                             <p className="result_main">
-                                Nuestro enfoque no se mide en promesas ni en renders.
-                                Se mide en sistemas que arrancan, operan y se integran
-                                correctamente desde el primer día.
+                                En obra, lo que importa no es cómo se ve el proyecto en planos,
+                                sino que los sistemas arranquen sin fallas, se comuniquen entre sí
+                                y respondan correctamente desde el primer día de operación.
+                                Ahí es donde se define si una instalación fue bien pensada
+                                o solo bien presentada.
                             </p>
 
                             <p className="result_closure">
-                                Ejecutamos para que la operación no falle.
+                                Cuando hay planificación, coordinación y control técnico,
+                                las instalaciones no generan problemas ni reprocesos.
+                                Funcionan, acompañan la operación y dejan de ser una preocupación.
                             </p>
+
                         </div>
 
                         <div className="result_cards">

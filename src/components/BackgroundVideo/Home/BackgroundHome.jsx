@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import videoBg from '../../../assets/video/videoBg.mp4';
 import HeroData from '../Home/BackgroundText.json';
 import './BackgroundHome.css'
@@ -41,8 +42,13 @@ const BackgroundHome = () => {
                     </p>
 
                     <div className='hero_actions'>
-                        <button className='btn_primary'>{content.primaryBtn}</button>
-                        <button className='btn_secondary'>{content.secondaryBtn}</button>
+                        <Link to="/project">
+                            <button className='btn_primary'>{content.primaryBtn}</button>
+                        </Link>
+
+                        <Link to="/method">
+                            <button className='btn_secondary'>{content.secondaryBtn}</button>
+                        </Link>
                     </div>
 
                 </div>
