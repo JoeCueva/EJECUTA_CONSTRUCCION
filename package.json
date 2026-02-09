@@ -1,5 +1,6 @@
 {
   "name": "ejecutaweb",
+  "homepage": "https://JoeCueva.github.io/EjecutaConstruccion/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/JoeCueva/EjecutaConstruccion.git"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
