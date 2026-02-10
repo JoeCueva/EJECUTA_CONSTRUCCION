@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/JoeCueva/EJECUTA_CONSTRUCCION.git"
+    "deploy": "gh-pages --dist dist --branch gh-pages --repo https://github.com/JoeCueva/EJECUTA_CONSTRUCCION.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
