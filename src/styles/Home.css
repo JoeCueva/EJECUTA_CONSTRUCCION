@@ -437,6 +437,10 @@
     overflow: hidden;
     color: var(--main_overall_color_tertiary);
     background-color: var(--main_overall_color_secundary);
+    /* background-image: url(../assets/img/imagenServicios.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .brand_multidisciplinary_installation_capabilities_container_intro_card {

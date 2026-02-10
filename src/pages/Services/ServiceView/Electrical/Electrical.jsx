@@ -17,15 +17,15 @@ const Electrical = () => {
                         </p>
                         <div className="electric-hero-stats">
                             <div className="stat-item">
-                                <span className="stat-number">100+</span>
+                                <span className="stat-number">70+</span>
                                 <span className="stat-label">Proyectos ejecutados</span>
                             </div>
                             <div className="stat-item">
-                                <span className="stat-number">15</span>
+                                <span className="stat-number">+8</span>
                                 <span className="stat-label">Años de experiencia</span>
                             </div>
                             <div className="stat-item">
-                                <span className="stat-number">99.8%</span>
+                                <span className="stat-number">100%</span>
                                 <span className="stat-label">Índice de confiabilidad</span>
                             </div>
                         </div>
@@ -252,7 +252,7 @@ const Electrical = () => {
                 <div className="electric-vision-overlay">
                     <div className="electric-vision-content">
                         <span className="vision-label">COMPROMISO CON LA EXCELENCIA</span>
-                        <h2>Instalaciones eléctricas diseñadas para operar 24/7 durante décadas</h2>
+                        <h2>Sistemas eléctricos pensados para operar sin fallas, hoy y en el largo plazo</h2>
                         <p>
                             Cada proyecto que ejecutamos está pensado para soportar las condiciones
                             más exigentes de operación continua. Utilizamos componentes de grado industrial,

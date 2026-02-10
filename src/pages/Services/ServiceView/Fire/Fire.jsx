@@ -27,11 +27,11 @@ const Fire = () => {
                                 <div className="metric-label">Fatalidades en nuestros proyectos</div>
                             </div>
                             <div className="metric-box">
-                                <div className="metric-value">1000+</div>
+                                <div className="metric-value">70+</div>
                                 <div className="metric-label">Sistemas instalados y operativos</div>
                             </div>
                             <div className="metric-box">
-                                <div className="metric-value">24/7</div>
+                                <div className="metric-value">12/7</div>
                                 <div className="metric-label">Servicio de emergencias</div>
                             </div>
                             <div className="metric-box">
@@ -379,7 +379,7 @@ const Fire = () => {
                                     {/* <div className="service-icon">◆</div> */}
                                     <div className="service-content">
                                         <strong>Integración con sistemas BMS y seguridad:</strong>
-                                        <p>Conexión de paneles de alarma con sistemas de gestión de edificios, cámaras de seguridad, control de accesos y monitoreo remoto 24/7.</p>
+                                        <p>Conexión de paneles de alarma con sistemas de gestión de edificios, cámaras de seguridad, control de accesos y monitoreo remoto 12/7.</p>
                                     </div>
                                 </li>
                             </ul>

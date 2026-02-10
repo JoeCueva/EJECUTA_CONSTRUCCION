@@ -23,7 +23,7 @@ import enfoqueIngenierio from '../../assets/img/enfoqueIngeniero.jpg';
 import infraTuberias from '../../assets/img/infraTuberias.jpg';
 import ImagenSeccionMarca from '../../assets/img/instalacionInspeccion.jpeg';
 import { use, useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -282,9 +282,13 @@ const Home = () => {
 
 
                         <div className="brand_hero_background_banner_action_group">
-                            <button className="brand_hero_background_banner_primary_action">
+                            <Link to="/contactos" className='brand_hero_background_banner_primary_action'>
                                 Hablemos de tu proyecto
-                            </button>
+
+                            </Link>
+                            {/* <button className="brand_hero_background_banner_primary_action">
+                                Hablemos de tu proyecto
+                            </button> */}
                         </div>
 
                     </div>
@@ -307,9 +311,12 @@ const Home = () => {
                         asegurando resultados confiables y sostenibles.
                     </p>
 
-                    <button className="container_section_info_btn">
+                    <Link to="/approach" className='container_section_info_btn'>
+                     Conocer nuestro enfoque
+                    </Link>
+                    {/* <button className="container_section_info_btn">
                         Conocer nuestro enfoque
-                    </button>
+                    </button> */}
                 </div>
 
                 <div className="container_section_info_right">

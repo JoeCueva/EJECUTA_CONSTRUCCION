@@ -65,7 +65,7 @@ const Sanitary = () => {
                         </p>
                         <div className="sanitary-hero-stats">
                             <div className="stat-item">
-                                <span className="stat-number">800+</span>
+                                <span className="stat-number">60+</span>
                                 <span className="stat-label">Instalaciones ejecutadas</span>
                             </div>
                             <div className="stat-item">
@@ -89,10 +89,10 @@ const Sanitary = () => {
                             src={imagenInstalacionTuberia}
                             alt="Instalación de sistemas sanitarios profesionales"
                         />
-                        <div className="image-badge">
+                        {/* <div className="image-badge">
                             <span className="badge-icon">✓</span>
                             <span>Certificado ISO 9001:2015</span>
-                        </div>
+                        </div> */}
                     </div>
 
                     <div className="sanitary-intro-content">
